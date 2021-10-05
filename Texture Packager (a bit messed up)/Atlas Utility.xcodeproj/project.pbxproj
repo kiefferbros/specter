@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15B9E96C173D832600B918F5 /* KBAffine.c in Sources */ = {isa = PBXBuildFile; fileRef = 15B9E93E173D832600B918F5 /* KBAffine.c */; };
+		15B9E96D173D832600B918F5 /* KBAnimation.c in Sources */ = {isa = PBXBuildFile; fileRef = 15B9E940173D832600B918F5 /* KBAnimation.c */; };
+		15B9E96E173D832600B918F5 /* KBArray.c in Sources */ = {isa = PBXBuildFile; fileRef = 15B9E942173D832600B918F5 /* KBArray.c */; };
+		15B9E96F173D832600B918F5 /* KBCamera.c in Sources */ = {isa = PBXBuildFile; fileRef = 15B9E944173D832600B918F5 /* KBCamera.c */; };
+		15B9E970173D832600B918F5 /* KBControl.c in Sources */ = {isa = PBXBuildFile; fileRef = 15B9E946173D832600B918F5 /* KBControl.c */; };
+		15B9E971173D832600B918F5 /* KBDictionary.c in Sources */ = {isa = PBXBuildFile; fileRef = 15B9E948173D832600B918F5 /* KBDictionary.c */; };
+		15B9E972173D832600B918F5 /* KBDrawable.c in Sources */ = {isa = PBXBuildFile; fileRef = 15B9E94A173D832600B918F5 /* KBDrawable.c */; };
+		15B9E973173D832600B918F5 /* KBEngine.c in Sources */ = {isa = PBXBuildFile; fileRef = 15B9E94C173D832600B918F5 /* KBEngine.c */; };
+		15B9E974173D832600B918F5 /* KBFramebufferTexture.c in Sources */ = {isa = PBXBuildFile; fileRef = 15B9E94E173D832600B918F5 /* KBFramebufferTexture.c */; };
+		15B9E975173D832600B918F5 /* KBGeometry.c in Sources */ = {isa = PBXBuildFile; fileRef = 15B9E950173D832600B918F5 /* KBGeometry.c */; };
+		15B9E976173D832600B918F5 /* KBInput.c in Sources */ = {isa = PBXBuildFile; fileRef = 15B9E952173D832600B918F5 /* KBInput.c */; };
+		15B9E977173D832600B918F5 /* KBKeyAnimation.c in Sources */ = {isa = PBXBuildFile; fileRef = 15B9E954173D832600B918F5 /* KBKeyAnimation.c */; };
+		15B9E978173D832600B918F5 /* KBKeyframe.c in Sources */ = {isa = PBXBuildFile; fileRef = 15B9E956173D832600B918F5 /* KBKeyframe.c */; };
+		15B9E979173D832600B918F5 /* KBLabel.c in Sources */ = {isa = PBXBuildFile; fileRef = 15B9E958173D832600B918F5 /* KBLabel.c */; };
+		15B9E97A173D832600B918F5 /* KBMenuScene.c in Sources */ = {isa = PBXBuildFile; fileRef = 15B9E95A173D832600B918F5 /* KBMenuScene.c */; };
+		15B9E97B173D832600B918F5 /* KBNode.c in Sources */ = {isa = PBXBuildFile; fileRef = 15B9E95C173D832600B918F5 /* KBNode.c */; };
+		15B9E97C173D832600B918F5 /* KBScene.c in Sources */ = {isa = PBXBuildFile; fileRef = 15B9E95E173D832600B918F5 /* KBScene.c */; };
+		15B9E97D173D832600B918F5 /* KBShape.c in Sources */ = {isa = PBXBuildFile; fileRef = 15B9E960173D832600B918F5 /* KBShape.c */; };
+		15B9E97E173D832600B918F5 /* KBSound.c in Sources */ = {isa = PBXBuildFile; fileRef = 15B9E962173D832600B918F5 /* KBSound.c */; };
+		15B9E97F173D832600B918F5 /* KBSprite.c in Sources */ = {isa = PBXBuildFile; fileRef = 15B9E964173D832600B918F5 /* KBSprite.c */; };
+		15B9E980173D832600B918F5 /* KBTexture.c in Sources */ = {isa = PBXBuildFile; fileRef = 15B9E966173D832600B918F5 /* KBTexture.c */; };
+		15B9E981173D832600B918F5 /* KBTextureFont.c in Sources */ = {isa = PBXBuildFile; fileRef = 15B9E968173D832600B918F5 /* KBTextureFont.c */; };
+		15B9E982173D832600B918F5 /* KBTypes.c in Sources */ = {isa = PBXBuildFile; fileRef = 15B9E96A173D832600B918F5 /* KBTypes.c */; };
+		1DDD582D0DA1D0D100B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD582A0DA1D0D100B32029 /* MainMenu.xib */; };
+		8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */; };
+		8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165FFE840EACC02AAC07 /* InfoPlist.strings */; };
+		8D15AC320486D014006FF6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
+		ABC18FB213AA63F5006288ED /* optipng in Resources */ = {isa = PBXBuildFile; fileRef = ABC18FB113AA63F5006288ED /* optipng */; };
+		FCB06A3612B815D900E96095 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB06A3512B815D900E96095 /* AppController.m */; };
+		FCD5970712C0FEA800C6236A /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD5970612C0FEA800C6236A /* OpenGL.framework */; };
+		FCF461FC12B2B40000F9A486 /* ImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF461FB12B2B40000F9A486 /* ImageView.m */; };
+		FCF4620F12B2BE9D00F9A486 /* ImageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF4620E12B2BE9D00F9A486 /* ImageInfo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C1660FE840EACC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FBA07B3F13500E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		15B9E93E173D832600B918F5 /* KBAffine.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = KBAffine.c; sourceTree = "<group>"; };
+		15B9E93F173D832600B918F5 /* KBAffine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBAffine.h; sourceTree = "<group>"; };
+		15B9E940173D832600B918F5 /* KBAnimation.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = KBAnimation.c; sourceTree = "<group>"; };
+		15B9E941173D832600B918F5 /* KBAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBAnimation.h; sourceTree = "<group>"; };
+		15B9E942173D832600B918F5 /* KBArray.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = KBArray.c; sourceTree = "<group>"; };
+		15B9E943173D832600B918F5 /* KBArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBArray.h; sourceTree = "<group>"; };
+		15B9E944173D832600B918F5 /* KBCamera.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = KBCamera.c; sourceTree = "<group>"; };
+		15B9E945173D832600B918F5 /* KBCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBCamera.h; sourceTree = "<group>"; };
+		15B9E946173D832600B918F5 /* KBControl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = KBControl.c; sourceTree = "<group>"; };
+		15B9E947173D832600B918F5 /* KBControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBControl.h; sourceTree = "<group>"; };
+		15B9E948173D832600B918F5 /* KBDictionary.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = KBDictionary.c; sourceTree = "<group>"; };
+		15B9E949173D832600B918F5 /* KBDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBDictionary.h; sourceTree = "<group>"; };
+		15B9E94A173D832600B918F5 /* KBDrawable.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = KBDrawable.c; sourceTree = "<group>"; };
+		15B9E94B173D832600B918F5 /* KBDrawable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBDrawable.h; sourceTree = "<group>"; };
+		15B9E94C173D832600B918F5 /* KBEngine.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = KBEngine.c; sourceTree = "<group>"; };
+		15B9E94D173D832600B918F5 /* KBEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBEngine.h; sourceTree = "<group>"; };
+		15B9E94E173D832600B918F5 /* KBFramebufferTexture.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = KBFramebufferTexture.c; sourceTree = "<group>"; };
+		15B9E94F173D832600B918F5 /* KBFramebufferTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBFramebufferTexture.h; sourceTree = "<group>"; };
+		15B9E950173D832600B918F5 /* KBGeometry.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = KBGeometry.c; sourceTree = "<group>"; };
+		15B9E951173D832600B918F5 /* KBGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBGeometry.h; sourceTree = "<group>"; };
+		15B9E952173D832600B918F5 /* KBInput.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = KBInput.c; sourceTree = "<group>"; };
+		15B9E953173D832600B918F5 /* KBInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBInput.h; sourceTree = "<group>"; };
+		15B9E954173D832600B918F5 /* KBKeyAnimation.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = KBKeyAnimation.c; sourceTree = "<group>"; };
+		15B9E955173D832600B918F5 /* KBKeyAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBKeyAnimation.h; sourceTree = "<group>"; };
+		15B9E956173D832600B918F5 /* KBKeyframe.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = KBKeyframe.c; sourceTree = "<group>"; };
+		15B9E957173D832600B918F5 /* KBKeyframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBKeyframe.h; sourceTree = "<group>"; };
+		15B9E958173D832600B918F5 /* KBLabel.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = KBLabel.c; sourceTree = "<group>"; };
+		15B9E959173D832600B918F5 /* KBLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBLabel.h; sourceTree = "<group>"; };
+		15B9E95A173D832600B918F5 /* KBMenuScene.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = KBMenuScene.c; sourceTree = "<group>"; };
+		15B9E95B173D832600B918F5 /* KBMenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBMenuScene.h; sourceTree = "<group>"; };
+		15B9E95C173D832600B918F5 /* KBNode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = KBNode.c; sourceTree = "<group>"; };
+		15B9E95D173D832600B918F5 /* KBNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBNode.h; sourceTree = "<group>"; };
+		15B9E95E173D832600B918F5 /* KBScene.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = KBScene.c; sourceTree = "<group>"; };
+		15B9E95F173D832600B918F5 /* KBScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBScene.h; sourceTree = "<group>"; };
+		15B9E960173D832600B918F5 /* KBShape.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = KBShape.c; sourceTree = "<group>"; };
+		15B9E961173D832600B918F5 /* KBShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBShape.h; sourceTree = "<group>"; };
+		15B9E962173D832600B918F5 /* KBSound.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = KBSound.c; sourceTree = "<group>"; };
+		15B9E963173D832600B918F5 /* KBSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBSound.h; sourceTree = "<group>"; };
+		15B9E964173D832600B918F5 /* KBSprite.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = KBSprite.c; sourceTree = "<group>"; };
+		15B9E965173D832600B918F5 /* KBSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBSprite.h; sourceTree = "<group>"; };
+		15B9E966173D832600B918F5 /* KBTexture.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = KBTexture.c; sourceTree = "<group>"; };
+		15B9E967173D832600B918F5 /* KBTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBTexture.h; sourceTree = "<group>"; };
+		15B9E968173D832600B918F5 /* KBTextureFont.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = KBTextureFont.c; sourceTree = "<group>"; };
+		15B9E969173D832600B918F5 /* KBTextureFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBTextureFont.h; sourceTree = "<group>"; };
+		15B9E96A173D832600B918F5 /* KBTypes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = KBTypes.c; sourceTree = "<group>"; };
+		15B9E96B173D832600B918F5 /* KBTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBTypes.h; sourceTree = "<group>"; };
+		1DDD582B0DA1D0D100B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2564AD2C0F5327BB00F57823 /* Texture_Packager_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Texture_Packager_Prefix.pch; sourceTree = "<group>"; };
+		2A37F4B0FDCFA73011CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A37F4BAFDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8D15AC360486D014006FF6A4 /* Texture_Packager-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Texture_Packager-Info.plist"; sourceTree = "<group>"; };
+		8D15AC370486D014006FF6A4 /* Atlas Utility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Atlas Utility.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC18FB113AA63F5006288ED /* optipng */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = optipng; sourceTree = "<group>"; };
+		FCB06A3412B815D900E96095 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		FCB06A3512B815D900E96095 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		FCD5970612C0FEA800C6236A /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		FCF461FA12B2B40000F9A486 /* ImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageView.h; sourceTree = "<group>"; };
+		FCF461FB12B2B40000F9A486 /* ImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageView.m; sourceTree = "<group>"; };
+		FCF4620D12B2BE9D00F9A486 /* ImageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageInfo.h; sourceTree = "<group>"; };
+		FCF4620E12B2BE9D00F9A486 /* ImageInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageInfo.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D15AC330486D014006FF6A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */,
+				FCD5970712C0FEA800C6236A /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A8FEA54F5311CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */,
+				13E42FBA07B3F13500E4EEF1 /* CoreData.framework */,
+				2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		15B9E93D173D832600B918F5 /* KBEngine */ = {
+			isa = PBXGroup;
+			children = (
+				15B9E93E173D832600B918F5 /* KBAffine.c */,
+				15B9E93F173D832600B918F5 /* KBAffine.h */,
+				15B9E940173D832600B918F5 /* KBAnimation.c */,
+				15B9E941173D832600B918F5 /* KBAnimation.h */,
+				15B9E942173D832600B918F5 /* KBArray.c */,
+				15B9E943173D832600B918F5 /* KBArray.h */,
+				15B9E944173D832600B918F5 /* KBCamera.c */,
+				15B9E945173D832600B918F5 /* KBCamera.h */,
+				15B9E946173D832600B918F5 /* KBControl.c */,
+				15B9E947173D832600B918F5 /* KBControl.h */,
+				15B9E948173D832600B918F5 /* KBDictionary.c */,
+				15B9E949173D832600B918F5 /* KBDictionary.h */,
+				15B9E94A173D832600B918F5 /* KBDrawable.c */,
+				15B9E94B173D832600B918F5 /* KBDrawable.h */,
+				15B9E94C173D832600B918F5 /* KBEngine.c */,
+				15B9E94D173D832600B918F5 /* KBEngine.h */,
+				15B9E94E173D832600B918F5 /* KBFramebufferTexture.c */,
+				15B9E94F173D832600B918F5 /* KBFramebufferTexture.h */,
+				15B9E950173D832600B918F5 /* KBGeometry.c */,
+				15B9E951173D832600B918F5 /* KBGeometry.h */,
+				15B9E952173D832600B918F5 /* KBInput.c */,
+				15B9E953173D832600B918F5 /* KBInput.h */,
+				15B9E954173D832600B918F5 /* KBKeyAnimation.c */,
+				15B9E955173D832600B918F5 /* KBKeyAnimation.h */,
+				15B9E956173D832600B918F5 /* KBKeyframe.c */,
+				15B9E957173D832600B918F5 /* KBKeyframe.h */,
+				15B9E958173D832600B918F5 /* KBLabel.c */,
+				15B9E959173D832600B918F5 /* KBLabel.h */,
+				15B9E95A173D832600B918F5 /* KBMenuScene.c */,
+				15B9E95B173D832600B918F5 /* KBMenuScene.h */,
+				15B9E95C173D832600B918F5 /* KBNode.c */,
+				15B9E95D173D832600B918F5 /* KBNode.h */,
+				15B9E95E173D832600B918F5 /* KBScene.c */,
+				15B9E95F173D832600B918F5 /* KBScene.h */,
+				15B9E960173D832600B918F5 /* KBShape.c */,
+				15B9E961173D832600B918F5 /* KBShape.h */,
+				15B9E962173D832600B918F5 /* KBSound.c */,
+				15B9E963173D832600B918F5 /* KBSound.h */,
+				15B9E964173D832600B918F5 /* KBSprite.c */,
+				15B9E965173D832600B918F5 /* KBSprite.h */,
+				15B9E966173D832600B918F5 /* KBTexture.c */,
+				15B9E967173D832600B918F5 /* KBTexture.h */,
+				15B9E968173D832600B918F5 /* KBTextureFont.c */,
+				15B9E969173D832600B918F5 /* KBTextureFont.h */,
+				15B9E96A173D832600B918F5 /* KBTypes.c */,
+				15B9E96B173D832600B918F5 /* KBTypes.h */,
+			);
+			name = KBEngine;
+			path = ../KBEngine;
+			sourceTree = "<group>";
+		};
+		19C28FB0FE9D524F11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D15AC370486D014006FF6A4 /* Atlas Utility.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A37F4AAFDCFA73011CA2CEA /* Texture Package Maker */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4ABFDCFA73011CA2CEA /* Classes */,
+				2A37F4AFFDCFA73011CA2CEA /* Other Sources */,
+				2A37F4B8FDCFA73011CA2CEA /* Resources */,
+				2A37F4C3FDCFA73011CA2CEA /* Frameworks */,
+				19C28FB0FE9D524F11CA2CBB /* Products */,
+			);
+			name = "Texture Package Maker";
+			sourceTree = "<group>";
+		};
+		2A37F4ABFDCFA73011CA2CEA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				15B9E93D173D832600B918F5 /* KBEngine */,
+				FCB06A3412B815D900E96095 /* AppController.h */,
+				FCB06A3512B815D900E96095 /* AppController.m */,
+				FCF461FA12B2B40000F9A486 /* ImageView.h */,
+				FCF461FB12B2B40000F9A486 /* ImageView.m */,
+				FCF4620D12B2BE9D00F9A486 /* ImageInfo.h */,
+				FCF4620E12B2BE9D00F9A486 /* ImageInfo.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		2A37F4AFFDCFA73011CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2564AD2C0F5327BB00F57823 /* Texture_Packager_Prefix.pch */,
+				2A37F4B0FDCFA73011CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		2A37F4B8FDCFA73011CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ABC18FB113AA63F5006288ED /* optipng */,
+				2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */,
+				8D15AC360486D014006FF6A4 /* Texture_Packager-Info.plist */,
+				089C165FFE840EACC02AAC07 /* InfoPlist.strings */,
+				1DDD582A0DA1D0D100B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2A37F4C3FDCFA73011CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */,
+				1058C7A8FEA54F5311CA2CBB /* Other Frameworks */,
+				FCD5970612C0FEA800C6236A /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D15AC270486D014006FF6A4 /* Atlas Utility */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "Atlas Utility" */;
+			buildPhases = (
+				8D15AC2B0486D014006FF6A4 /* Resources */,
+				8D15AC300486D014006FF6A4 /* Sources */,
+				8D15AC330486D014006FF6A4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Atlas Utility";
+			productInstallPath = "$(HOME)/Applications";
+			productName = "Texture Package Maker";
+			productReference = 8D15AC370486D014006FF6A4 /* Atlas Utility.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "Atlas Utility" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* Texture Package Maker */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D15AC270486D014006FF6A4 /* Atlas Utility */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D15AC2B0486D014006FF6A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */,
+				8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */,
+				1DDD582D0DA1D0D100B32029 /* MainMenu.xib in Resources */,
+				ABC18FB213AA63F5006288ED /* optipng in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D15AC300486D014006FF6A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC320486D014006FF6A4 /* main.m in Sources */,
+				FCF461FC12B2B40000F9A486 /* ImageView.m in Sources */,
+				FCF4620F12B2BE9D00F9A486 /* ImageInfo.m in Sources */,
+				FCB06A3612B815D900E96095 /* AppController.m in Sources */,
+				15B9E96C173D832600B918F5 /* KBAffine.c in Sources */,
+				15B9E96D173D832600B918F5 /* KBAnimation.c in Sources */,
+				15B9E96E173D832600B918F5 /* KBArray.c in Sources */,
+				15B9E96F173D832600B918F5 /* KBCamera.c in Sources */,
+				15B9E970173D832600B918F5 /* KBControl.c in Sources */,
+				15B9E971173D832600B918F5 /* KBDictionary.c in Sources */,
+				15B9E972173D832600B918F5 /* KBDrawable.c in Sources */,
+				15B9E973173D832600B918F5 /* KBEngine.c in Sources */,
+				15B9E974173D832600B918F5 /* KBFramebufferTexture.c in Sources */,
+				15B9E975173D832600B918F5 /* KBGeometry.c in Sources */,
+				15B9E976173D832600B918F5 /* KBInput.c in Sources */,
+				15B9E977173D832600B918F5 /* KBKeyAnimation.c in Sources */,
+				15B9E978173D832600B918F5 /* KBKeyframe.c in Sources */,
+				15B9E979173D832600B918F5 /* KBLabel.c in Sources */,
+				15B9E97A173D832600B918F5 /* KBMenuScene.c in Sources */,
+				15B9E97B173D832600B918F5 /* KBNode.c in Sources */,
+				15B9E97C173D832600B918F5 /* KBScene.c in Sources */,
+				15B9E97D173D832600B918F5 /* KBShape.c in Sources */,
+				15B9E97E173D832600B918F5 /* KBSound.c in Sources */,
+				15B9E97F173D832600B918F5 /* KBSprite.c in Sources */,
+				15B9E980173D832600B918F5 /* KBTexture.c in Sources */,
+				15B9E981173D832600B918F5 /* KBTextureFont.c in Sources */,
+				15B9E982173D832600B918F5 /* KBTypes.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165FFE840EACC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1660FE840EACC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD582A0DA1D0D100B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD582B0DA1D0D100B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A37F4BAFDCFA73011CA2CEA /* English */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C05733C808A9546B00998B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Texture_Packager_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Texture_Packager-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "Atlas Utility";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C05733C908A9546B00998B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Texture_Packager_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Texture_Packager-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "Atlas Utility";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C05733CC08A9546B00998B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C05733CD08A9546B00998B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "Atlas Utility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05733C808A9546B00998B17 /* Debug */,
+				C05733C908A9546B00998B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "Atlas Utility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05733CC08A9546B00998B17 /* Debug */,
+				C05733CD08A9546B00998B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
+}

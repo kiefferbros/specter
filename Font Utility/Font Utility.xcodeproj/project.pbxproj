@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD582C0DA1D0D100B32029 /* MyDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58280DA1D0D100B32029 /* MyDocument.xib */; };
+		1DDD582D0DA1D0D100B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD582A0DA1D0D100B32029 /* MainMenu.xib */; };
+		8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */; };
+		8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165FFE840EACC02AAC07 /* InfoPlist.strings */; };
+		8D15AC310486D014006FF6A4 /* MyDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */; settings = {ATTRIBUTES = (); }; };
+		8D15AC320486D014006FF6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
+		ABC18F9213AA5058006288ED /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC18F9113AA5058006288ED /* OpenGL.framework */; };
+		ABC18F9413AA50D3006288ED /* optipng in Resources */ = {isa = PBXBuildFile; fileRef = ABC18F9313AA50D3006288ED /* optipng */; };
+		ABD20BA8151D08E500B8A4F6 /* SPTextureAtlas.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD20BA7151D08E400B8A4F6 /* SPTextureAtlas.m */; };
+		ABD20BAB151D08F900B8A4F6 /* SPTexturePack.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD20BAA151D08F900B8A4F6 /* SPTexturePack.m */; };
+		FC12BB3011C9D5CC00AC3303 /* ImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC12BB2F11C9D5CC00AC3303 /* ImageView.m */; };
+		FC21856F11C6C9A1002FDEAA /* BitmapCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = FC21856E11C6C9A1002FDEAA /* BitmapCharacter.m */; };
+		FC25936B11CA6E4000981AC6 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC25936A11CA6E4000981AC6 /* AppController.m */; };
+		FC261A61126E112E00E421FE /* SPAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = FC261A59126E112E00E421FE /* SPAnimation.m */; };
+		FC261A62126E112E00E421FE /* SPDrawableNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FC261A5B126E112E00E421FE /* SPDrawableNode.m */; };
+		FC261A63126E112E00E421FE /* SPNode2D.m in Sources */ = {isa = PBXBuildFile; fileRef = FC261A5D126E112E00E421FE /* SPNode2D.m */; };
+		FC261A64126E112E00E421FE /* SPTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = FC261A5F126E112E00E421FE /* SPTexture.m */; };
+		FC261A65126E112E00E421FE /* SPTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = FC261A60126E112E00E421FE /* SPTypes.m */; };
+		FC868B9211C82CBB00B7F59C /* SPLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = FC868B9111C82CBB00B7F59C /* SPLabel.m */; };
+		FC884D0C11C6991C00305E17 /* BitmapListView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC884D0B11C6991C00305E17 /* BitmapListView.m */; };
+		FC884DCA11C6A91E00305E17 /* SPCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = FC884D9B11C6A91E00305E17 /* SPCamera.m */; };
+		FC884DCB11C6A91E00305E17 /* SPGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = FC884D9E11C6A91E00305E17 /* SPGeometry.m */; };
+		FC884DCE11C6A91E00305E17 /* SPLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FC884DA411C6A91E00305E17 /* SPLayer.m */; };
+		FC884DD111C6A91E00305E17 /* SPNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FC884DAA11C6A91E00305E17 /* SPNode.m */; };
+		FC884DD211C6A91E00305E17 /* SPScene.m in Sources */ = {isa = PBXBuildFile; fileRef = FC884DAC11C6A91E00305E17 /* SPScene.m */; };
+		FC884DD411C6A91E00305E17 /* SPSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = FC884DB011C6A91E00305E17 /* SPSprite.m */; };
+		FC884DE611C6AAD400305E17 /* GLView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC884DE511C6AAD400305E17 /* GLView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C1660FE840EACC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FBA07B3F13500E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		152A7A05169CB1F8005373D7 /* KBFont.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBFont.h; sourceTree = "<group>"; };
+		1DDD58290DA1D0D100B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MyDocument.xib; sourceTree = "<group>"; };
+		1DDD582B0DA1D0D100B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2564AD2C0F5327BB00F57823 /* Font_Utility_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Font_Utility_Prefix.pch; sourceTree = "<group>"; };
+		2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDocument.m; sourceTree = "<group>"; };
+		2A37F4AEFDCFA73011CA2CEA /* MyDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDocument.h; sourceTree = "<group>"; };
+		2A37F4B0FDCFA73011CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A37F4BAFDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8D15AC360486D014006FF6A4 /* Font_Utility-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Font_Utility-Info.plist"; sourceTree = "<group>"; };
+		8D15AC370486D014006FF6A4 /* Font Utility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Font Utility.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC18F9113AA5058006288ED /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		ABC18F9313AA50D3006288ED /* optipng */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = optipng; sourceTree = "<group>"; };
+		ABD20BA6151D08E400B8A4F6 /* SPTextureAtlas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPTextureAtlas.h; sourceTree = "<group>"; };
+		ABD20BA7151D08E400B8A4F6 /* SPTextureAtlas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPTextureAtlas.m; sourceTree = "<group>"; };
+		ABD20BA9151D08F900B8A4F6 /* SPTexturePack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPTexturePack.h; sourceTree = "<group>"; };
+		ABD20BAA151D08F900B8A4F6 /* SPTexturePack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPTexturePack.m; sourceTree = "<group>"; };
+		FC12BB2E11C9D5CC00AC3303 /* ImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageView.h; sourceTree = "<group>"; };
+		FC12BB2F11C9D5CC00AC3303 /* ImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageView.m; sourceTree = "<group>"; };
+		FC21856D11C6C9A1002FDEAA /* BitmapCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitmapCharacter.h; sourceTree = "<group>"; };
+		FC21856E11C6C9A1002FDEAA /* BitmapCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitmapCharacter.m; sourceTree = "<group>"; };
+		FC25936911CA6E4000981AC6 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		FC25936A11CA6E4000981AC6 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		FC261A58126E112E00E421FE /* SPAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPAnimation.h; sourceTree = "<group>"; };
+		FC261A59126E112E00E421FE /* SPAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPAnimation.m; sourceTree = "<group>"; };
+		FC261A5A126E112E00E421FE /* SPDrawableNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPDrawableNode.h; sourceTree = "<group>"; };
+		FC261A5B126E112E00E421FE /* SPDrawableNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPDrawableNode.m; sourceTree = "<group>"; };
+		FC261A5C126E112E00E421FE /* SPNode2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPNode2D.h; sourceTree = "<group>"; };
+		FC261A5D126E112E00E421FE /* SPNode2D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPNode2D.m; sourceTree = "<group>"; };
+		FC261A5E126E112E00E421FE /* SPTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPTexture.h; sourceTree = "<group>"; };
+		FC261A5F126E112E00E421FE /* SPTexture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPTexture.m; sourceTree = "<group>"; };
+		FC261A60126E112E00E421FE /* SPTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPTypes.m; sourceTree = "<group>"; };
+		FC868B9011C82CBB00B7F59C /* SPLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPLabel.h; sourceTree = "<group>"; };
+		FC868B9111C82CBB00B7F59C /* SPLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPLabel.m; sourceTree = "<group>"; };
+		FC884D0A11C6991C00305E17 /* BitmapListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitmapListView.h; sourceTree = "<group>"; };
+		FC884D0B11C6991C00305E17 /* BitmapListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitmapListView.m; sourceTree = "<group>"; };
+		FC884D9A11C6A91E00305E17 /* SPCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPCamera.h; sourceTree = "<group>"; };
+		FC884D9B11C6A91E00305E17 /* SPCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPCamera.m; sourceTree = "<group>"; };
+		FC884D9C11C6A91E00305E17 /* Specter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Specter.h; sourceTree = "<group>"; };
+		FC884D9D11C6A91E00305E17 /* SPGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPGeometry.h; sourceTree = "<group>"; };
+		FC884D9E11C6A91E00305E17 /* SPGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPGeometry.m; sourceTree = "<group>"; };
+		FC884DA311C6A91E00305E17 /* SPLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPLayer.h; sourceTree = "<group>"; };
+		FC884DA411C6A91E00305E17 /* SPLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPLayer.m; sourceTree = "<group>"; };
+		FC884DA911C6A91E00305E17 /* SPNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPNode.h; sourceTree = "<group>"; };
+		FC884DAA11C6A91E00305E17 /* SPNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPNode.m; sourceTree = "<group>"; };
+		FC884DAB11C6A91E00305E17 /* SPScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPScene.h; sourceTree = "<group>"; };
+		FC884DAC11C6A91E00305E17 /* SPScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPScene.m; sourceTree = "<group>"; };
+		FC884DAF11C6A91E00305E17 /* SPSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPSprite.h; sourceTree = "<group>"; };
+		FC884DB011C6A91E00305E17 /* SPSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPSprite.m; sourceTree = "<group>"; };
+		FC884DBB11C6A91E00305E17 /* SPTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPTypes.h; sourceTree = "<group>"; };
+		FC884DE411C6AAD400305E17 /* GLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLView.h; sourceTree = "<group>"; };
+		FC884DE511C6AAD400305E17 /* GLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D15AC330486D014006FF6A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC18F9213AA5058006288ED /* OpenGL.framework in Frameworks */,
+				8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABC18F9113AA5058006288ED /* OpenGL.framework */,
+				1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A8FEA54F5311CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */,
+				13E42FBA07B3F13500E4EEF1 /* CoreData.framework */,
+				2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB0FE9D524F11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D15AC370486D014006FF6A4 /* Font Utility.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A37F4AAFDCFA73011CA2CEA /* Font Utility */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4ABFDCFA73011CA2CEA /* Classes */,
+				2A37F4AFFDCFA73011CA2CEA /* Other Sources */,
+				2A37F4B8FDCFA73011CA2CEA /* Resources */,
+				2A37F4C3FDCFA73011CA2CEA /* Frameworks */,
+				19C28FB0FE9D524F11CA2CBB /* Products */,
+			);
+			name = "Font Utility";
+			sourceTree = "<group>";
+		};
+		2A37F4ABFDCFA73011CA2CEA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FC884D7311C6A91E00305E17 /* Specter 0.4.6 */,
+				2A37F4AEFDCFA73011CA2CEA /* MyDocument.h */,
+				2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */,
+				FC884DE411C6AAD400305E17 /* GLView.h */,
+				FC884DE511C6AAD400305E17 /* GLView.m */,
+				FC884D0A11C6991C00305E17 /* BitmapListView.h */,
+				FC884D0B11C6991C00305E17 /* BitmapListView.m */,
+				FC21856D11C6C9A1002FDEAA /* BitmapCharacter.h */,
+				FC21856E11C6C9A1002FDEAA /* BitmapCharacter.m */,
+				FC12BB2E11C9D5CC00AC3303 /* ImageView.h */,
+				FC12BB2F11C9D5CC00AC3303 /* ImageView.m */,
+				FC25936911CA6E4000981AC6 /* AppController.h */,
+				FC25936A11CA6E4000981AC6 /* AppController.m */,
+				152A7A05169CB1F8005373D7 /* KBFont.h */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		2A37F4AFFDCFA73011CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2564AD2C0F5327BB00F57823 /* Font_Utility_Prefix.pch */,
+				2A37F4B0FDCFA73011CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		2A37F4B8FDCFA73011CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ABC18F9313AA50D3006288ED /* optipng */,
+				2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */,
+				8D15AC360486D014006FF6A4 /* Font_Utility-Info.plist */,
+				089C165FFE840EACC02AAC07 /* InfoPlist.strings */,
+				1DDD58280DA1D0D100B32029 /* MyDocument.xib */,
+				1DDD582A0DA1D0D100B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2A37F4C3FDCFA73011CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */,
+				1058C7A8FEA54F5311CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC884D7311C6A91E00305E17 /* Specter 0.4.6 */ = {
+			isa = PBXGroup;
+			children = (
+				ABD20BA9151D08F900B8A4F6 /* SPTexturePack.h */,
+				ABD20BAA151D08F900B8A4F6 /* SPTexturePack.m */,
+				ABD20BA6151D08E400B8A4F6 /* SPTextureAtlas.h */,
+				ABD20BA7151D08E400B8A4F6 /* SPTextureAtlas.m */,
+				FC261A58126E112E00E421FE /* SPAnimation.h */,
+				FC261A59126E112E00E421FE /* SPAnimation.m */,
+				FC261A5A126E112E00E421FE /* SPDrawableNode.h */,
+				FC261A5B126E112E00E421FE /* SPDrawableNode.m */,
+				FC261A5C126E112E00E421FE /* SPNode2D.h */,
+				FC261A5D126E112E00E421FE /* SPNode2D.m */,
+				FC261A60126E112E00E421FE /* SPTypes.m */,
+				FC884D9A11C6A91E00305E17 /* SPCamera.h */,
+				FC884D9B11C6A91E00305E17 /* SPCamera.m */,
+				FC884D9C11C6A91E00305E17 /* Specter.h */,
+				FC884D9D11C6A91E00305E17 /* SPGeometry.h */,
+				FC884D9E11C6A91E00305E17 /* SPGeometry.m */,
+				FC884DA311C6A91E00305E17 /* SPLayer.h */,
+				FC884DA411C6A91E00305E17 /* SPLayer.m */,
+				FC884DA911C6A91E00305E17 /* SPNode.h */,
+				FC884DAA11C6A91E00305E17 /* SPNode.m */,
+				FC884DAB11C6A91E00305E17 /* SPScene.h */,
+				FC884DAC11C6A91E00305E17 /* SPScene.m */,
+				FC884DAF11C6A91E00305E17 /* SPSprite.h */,
+				FC884DB011C6A91E00305E17 /* SPSprite.m */,
+				FC884DBB11C6A91E00305E17 /* SPTypes.h */,
+				FC261A5E126E112E00E421FE /* SPTexture.h */,
+				FC261A5F126E112E00E421FE /* SPTexture.m */,
+				FC868B9011C82CBB00B7F59C /* SPLabel.h */,
+				FC868B9111C82CBB00B7F59C /* SPLabel.m */,
+			);
+			name = "Specter 0.4.6";
+			path = ../Classes;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D15AC270486D014006FF6A4 /* Font Utility */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "Font Utility" */;
+			buildPhases = (
+				8D15AC2B0486D014006FF6A4 /* Resources */,
+				8D15AC300486D014006FF6A4 /* Sources */,
+				8D15AC330486D014006FF6A4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Font Utility";
+			productInstallPath = "$(HOME)/Applications";
+			productName = "Font Utility";
+			productReference = 8D15AC370486D014006FF6A4 /* Font Utility.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "Font Utility" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* Font Utility */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D15AC270486D014006FF6A4 /* Font Utility */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D15AC2B0486D014006FF6A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */,
+				8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */,
+				1DDD582C0DA1D0D100B32029 /* MyDocument.xib in Resources */,
+				1DDD582D0DA1D0D100B32029 /* MainMenu.xib in Resources */,
+				ABC18F9413AA50D3006288ED /* optipng in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D15AC300486D014006FF6A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC310486D014006FF6A4 /* MyDocument.m in Sources */,
+				8D15AC320486D014006FF6A4 /* main.m in Sources */,
+				FC884D0C11C6991C00305E17 /* BitmapListView.m in Sources */,
+				FC884DCA11C6A91E00305E17 /* SPCamera.m in Sources */,
+				FC884DCB11C6A91E00305E17 /* SPGeometry.m in Sources */,
+				FC884DCE11C6A91E00305E17 /* SPLayer.m in Sources */,
+				FC884DD111C6A91E00305E17 /* SPNode.m in Sources */,
+				FC884DD211C6A91E00305E17 /* SPScene.m in Sources */,
+				FC884DD411C6A91E00305E17 /* SPSprite.m in Sources */,
+				FC884DE611C6AAD400305E17 /* GLView.m in Sources */,
+				FC21856F11C6C9A1002FDEAA /* BitmapCharacter.m in Sources */,
+				FC868B9211C82CBB00B7F59C /* SPLabel.m in Sources */,
+				FC12BB3011C9D5CC00AC3303 /* ImageView.m in Sources */,
+				FC25936B11CA6E4000981AC6 /* AppController.m in Sources */,
+				FC261A61126E112E00E421FE /* SPAnimation.m in Sources */,
+				FC261A62126E112E00E421FE /* SPDrawableNode.m in Sources */,
+				FC261A63126E112E00E421FE /* SPNode2D.m in Sources */,
+				FC261A64126E112E00E421FE /* SPTexture.m in Sources */,
+				FC261A65126E112E00E421FE /* SPTypes.m in Sources */,
+				ABD20BA8151D08E500B8A4F6 /* SPTextureAtlas.m in Sources */,
+				ABD20BAB151D08F900B8A4F6 /* SPTexturePack.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165FFE840EACC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1660FE840EACC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58280DA1D0D100B32029 /* MyDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58290DA1D0D100B32029 /* English */,
+			);
+			name = MyDocument.xib;
+			sourceTree = "<group>";
+		};
+		1DDD582A0DA1D0D100B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD582B0DA1D0D100B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A37F4BAFDCFA73011CA2CEA /* English */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C05733C808A9546B00998B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Font_Utility_Prefix.pch;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "Font_Utility-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "Font Utility";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C05733C908A9546B00998B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Font_Utility_Prefix.pch;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "Font_Utility-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "Font Utility";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C05733CC08A9546B00998B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C05733CD08A9546B00998B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "Font Utility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05733C808A9546B00998B17 /* Debug */,
+				C05733C908A9546B00998B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "Font Utility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05733CC08A9546B00998B17 /* Debug */,
+				C05733CD08A9546B00998B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
+}

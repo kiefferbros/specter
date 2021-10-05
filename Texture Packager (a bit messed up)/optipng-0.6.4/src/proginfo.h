@@ -1,0 +1,5 @@
+#define PROGRAM_NAME        "OptiPNG"
+#define PROGRAM_DESCRIPTION "Advanced PNG optimizer"
+#define PROGRAM_VERSION     "0.6.4"
+#define PROGRAM_COPYRIGHT   "Copyright (C) 2001-2010 Cosmin Truta"
+#define PROGRAM_URI         "http://optipng.sourceforge.net/"

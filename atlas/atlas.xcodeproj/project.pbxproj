@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABC21E9315260BC10029C719 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC21E9215260BC10029C719 /* UIKit.framework */; };
+		ABC21E9515260BC10029C719 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC21E9415260BC10029C719 /* Foundation.framework */; };
+		ABC21E9715260BC10029C719 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC21E9615260BC10029C719 /* CoreGraphics.framework */; };
+		ABC21E9D15260BC10029C719 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABC21E9B15260BC10029C719 /* InfoPlist.strings */; };
+		ABC21E9F15260BC10029C719 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC21E9E15260BC10029C719 /* main.m */; };
+		ABC21EA315260BC10029C719 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC21EA215260BC10029C719 /* AppDelegate.m */; };
+		ABC21EA615260BC10029C719 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC21EA515260BC10029C719 /* ViewController.m */; };
+		ABC21EA915260BC10029C719 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABC21EA715260BC10029C719 /* ViewController.xib */; };
+		ABC21EEE15260BE10029C719 /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC21EB215260BE10029C719 /* EAGLView.m */; };
+		ABC21EEF15260BE10029C719 /* EAGLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC21EB415260BE10029C719 /* EAGLViewController.m */; };
+		ABC21EF315260BE10029C719 /* SPSceneController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC21EBE15260BE10029C719 /* SPSceneController.m */; };
+		ABC21EF415260BE10029C719 /* SPAmbientTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC21EC015260BE10029C719 /* SPAmbientTrack.m */; };
+		ABC21EF515260BE10029C719 /* SPAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC21EC215260BE10029C719 /* SPAnimation.m */; };
+		ABC21EF615260BE10029C719 /* SPAtlasNode.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC21EC415260BE10029C719 /* SPAtlasNode.m */; };
+		ABC21EF715260BE10029C719 /* SPAtlasScene.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC21EC615260BE10029C719 /* SPAtlasScene.m */; };
+		ABC21EF815260BE10029C719 /* SPAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC21EC815260BE10029C719 /* SPAudio.m */; };
+		ABC21EF915260BE10029C719 /* SPCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC21ECA15260BE10029C719 /* SPCamera.m */; };
+		ABC21EFA15260BE10029C719 /* SPDrawableNode.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC21ECC15260BE10029C719 /* SPDrawableNode.m */; };
+		ABC21EFB15260BE10029C719 /* SPGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC21ECF15260BE10029C719 /* SPGeometry.m */; };
+		ABC21EFC15260BE10029C719 /* SPGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC21ED115260BE10029C719 /* SPGradient.m */; };
+		ABC21EFD15260BE10029C719 /* SPLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC21ED315260BE10029C719 /* SPLabel.m */; };
+		ABC21EFE15260BE10029C719 /* SPLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC21ED515260BE10029C719 /* SPLayer.m */; };
+		ABC21EFF15260BE10029C719 /* SPNode.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC21ED715260BE10029C719 /* SPNode.m */; };
+		ABC21F0015260BE10029C719 /* SPNode2D.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC21ED915260BE10029C719 /* SPNode2D.m */; };
+		ABC21F0115260BE10029C719 /* SPParticles.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC21EDB15260BE10029C719 /* SPParticles.m */; };
+		ABC21F0215260BE10029C719 /* SPReadWrite.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC21EDD15260BE10029C719 /* SPReadWrite.m */; };
+		ABC21F0315260BE10029C719 /* SPScene.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC21EDF15260BE10029C719 /* SPScene.m */; };
+		ABC21F0415260BE10029C719 /* SPShapes.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC21EE115260BE10029C719 /* SPShapes.m */; };
+		ABC21F0515260BE10029C719 /* SPSound.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC21EE315260BE10029C719 /* SPSound.m */; };
+		ABC21F0615260BE10029C719 /* SPSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC21EE515260BE10029C719 /* SPSprite.m */; };
+		ABC21F0715260BE10029C719 /* SPTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC21EE715260BE10029C719 /* SPTexture.m */; };
+		ABC21F0815260BE10029C719 /* SPTextureAtlas.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC21EE915260BE10029C719 /* SPTextureAtlas.m */; };
+		ABC21F0915260BE10029C719 /* SPTexturePack.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC21EEB15260BE10029C719 /* SPTexturePack.m */; };
+		ABC21F0A15260BE10029C719 /* SPTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC21EED15260BE10029C719 /* SPTypes.m */; };
+		ABC21F1615260C460029C719 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC21F1215260C460029C719 /* AudioToolbox.framework */; };
+		ABC21F1715260C460029C719 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC21F1315260C460029C719 /* AVFoundation.framework */; };
+		ABC21F1815260C460029C719 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC21F1415260C460029C719 /* OpenAL.framework */; };
+		ABC21F1915260C460029C719 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC21F1515260C460029C719 /* OpenGLES.framework */; };
+		ABC21F1C15260D430029C719 /* SceneController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC21F1B15260D430029C719 /* SceneController.m */; };
+		ABC21F24152611260029C719 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC21F23152611260029C719 /* QuartzCore.framework */; };
+		ABC21F2B15262D8E0029C719 /* gameplay.sptex in Resources */ = {isa = PBXBuildFile; fileRef = ABC21F2A15262D8E0029C719 /* gameplay.sptex */; };
+		ABC7AF12152A08BB00A5E003 /* SPAtlasMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC7AF11152A08BB00A5E003 /* SPAtlasMesh.m */; };
+		ABC7AF15152A243600A5E003 /* SPAtlasSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC7AF14152A243600A5E003 /* SPAtlasSprite.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ABC21E8E15260BC10029C719 /* atlas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = atlas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC21E9215260BC10029C719 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ABC21E9415260BC10029C719 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ABC21E9615260BC10029C719 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ABC21E9A15260BC10029C719 /* atlas-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "atlas-Info.plist"; sourceTree = "<group>"; };
+		ABC21E9C15260BC10029C719 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ABC21E9E15260BC10029C719 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABC21EA015260BC10029C719 /* atlas-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "atlas-Prefix.pch"; sourceTree = "<group>"; };
+		ABC21EA115260BC10029C719 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABC21EA215260BC10029C719 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABC21EA415260BC10029C719 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ABC21EA515260BC10029C719 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ABC21EA815260BC10029C719 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		ABC21EB115260BE10029C719 /* EAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
+		ABC21EB215260BE10029C719 /* EAGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAGLView.m; sourceTree = "<group>"; };
+		ABC21EB315260BE10029C719 /* EAGLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAGLViewController.h; sourceTree = "<group>"; };
+		ABC21EB415260BE10029C719 /* EAGLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAGLViewController.m; sourceTree = "<group>"; };
+		ABC21EBD15260BE10029C719 /* SPSceneController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPSceneController.h; sourceTree = "<group>"; };
+		ABC21EBE15260BE10029C719 /* SPSceneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPSceneController.m; sourceTree = "<group>"; };
+		ABC21EBF15260BE10029C719 /* SPAmbientTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPAmbientTrack.h; sourceTree = "<group>"; };
+		ABC21EC015260BE10029C719 /* SPAmbientTrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPAmbientTrack.m; sourceTree = "<group>"; };
+		ABC21EC115260BE10029C719 /* SPAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPAnimation.h; sourceTree = "<group>"; };
+		ABC21EC215260BE10029C719 /* SPAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPAnimation.m; sourceTree = "<group>"; };
+		ABC21EC315260BE10029C719 /* SPAtlasNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPAtlasNode.h; sourceTree = "<group>"; };
+		ABC21EC415260BE10029C719 /* SPAtlasNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPAtlasNode.m; sourceTree = "<group>"; };
+		ABC21EC515260BE10029C719 /* SPAtlasScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPAtlasScene.h; sourceTree = "<group>"; };
+		ABC21EC615260BE10029C719 /* SPAtlasScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPAtlasScene.m; sourceTree = "<group>"; };
+		ABC21EC715260BE10029C719 /* SPAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPAudio.h; sourceTree = "<group>"; };
+		ABC21EC815260BE10029C719 /* SPAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPAudio.m; sourceTree = "<group>"; };
+		ABC21EC915260BE10029C719 /* SPCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPCamera.h; sourceTree = "<group>"; };
+		ABC21ECA15260BE10029C719 /* SPCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPCamera.m; sourceTree = "<group>"; };
+		ABC21ECB15260BE10029C719 /* SPDrawableNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPDrawableNode.h; sourceTree = "<group>"; };
+		ABC21ECC15260BE10029C719 /* SPDrawableNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPDrawableNode.m; sourceTree = "<group>"; };
+		ABC21ECD15260BE10029C719 /* Specter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Specter.h; sourceTree = "<group>"; };
+		ABC21ECE15260BE10029C719 /* SPGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPGeometry.h; sourceTree = "<group>"; };
+		ABC21ECF15260BE10029C719 /* SPGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPGeometry.m; sourceTree = "<group>"; };
+		ABC21ED015260BE10029C719 /* SPGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPGradient.h; sourceTree = "<group>"; };
+		ABC21ED115260BE10029C719 /* SPGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPGradient.m; sourceTree = "<group>"; };
+		ABC21ED215260BE10029C719 /* SPLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPLabel.h; sourceTree = "<group>"; };
+		ABC21ED315260BE10029C719 /* SPLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPLabel.m; sourceTree = "<group>"; };
+		ABC21ED415260BE10029C719 /* SPLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPLayer.h; sourceTree = "<group>"; };
+		ABC21ED515260BE10029C719 /* SPLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPLayer.m; sourceTree = "<group>"; };
+		ABC21ED615260BE10029C719 /* SPNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPNode.h; sourceTree = "<group>"; };
+		ABC21ED715260BE10029C719 /* SPNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPNode.m; sourceTree = "<group>"; };
+		ABC21ED815260BE10029C719 /* SPNode2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPNode2D.h; sourceTree = "<group>"; };
+		ABC21ED915260BE10029C719 /* SPNode2D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPNode2D.m; sourceTree = "<group>"; };
+		ABC21EDA15260BE10029C719 /* SPParticles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPParticles.h; sourceTree = "<group>"; };
+		ABC21EDB15260BE10029C719 /* SPParticles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPParticles.m; sourceTree = "<group>"; };
+		ABC21EDC15260BE10029C719 /* SPReadWrite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPReadWrite.h; sourceTree = "<group>"; };
+		ABC21EDD15260BE10029C719 /* SPReadWrite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPReadWrite.m; sourceTree = "<group>"; };
+		ABC21EDE15260BE10029C719 /* SPScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPScene.h; sourceTree = "<group>"; };
+		ABC21EDF15260BE10029C719 /* SPScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPScene.m; sourceTree = "<group>"; };
+		ABC21EE015260BE10029C719 /* SPShapes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPShapes.h; sourceTree = "<group>"; };
+		ABC21EE115260BE10029C719 /* SPShapes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPShapes.m; sourceTree = "<group>"; };
+		ABC21EE215260BE10029C719 /* SPSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPSound.h; sourceTree = "<group>"; };
+		ABC21EE315260BE10029C719 /* SPSound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPSound.m; sourceTree = "<group>"; };
+		ABC21EE415260BE10029C719 /* SPSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPSprite.h; sourceTree = "<group>"; };
+		ABC21EE515260BE10029C719 /* SPSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPSprite.m; sourceTree = "<group>"; };
+		ABC21EE615260BE10029C719 /* SPTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPTexture.h; sourceTree = "<group>"; };
+		ABC21EE715260BE10029C719 /* SPTexture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPTexture.m; sourceTree = "<group>"; };
+		ABC21EE815260BE10029C719 /* SPTextureAtlas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPTextureAtlas.h; sourceTree = "<group>"; };
+		ABC21EE915260BE10029C719 /* SPTextureAtlas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPTextureAtlas.m; sourceTree = "<group>"; };
+		ABC21EEA15260BE10029C719 /* SPTexturePack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPTexturePack.h; sourceTree = "<group>"; };
+		ABC21EEB15260BE10029C719 /* SPTexturePack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPTexturePack.m; sourceTree = "<group>"; };
+		ABC21EEC15260BE10029C719 /* SPTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPTypes.h; sourceTree = "<group>"; };
+		ABC21EED15260BE10029C719 /* SPTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPTypes.m; sourceTree = "<group>"; };
+		ABC21F1215260C460029C719 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		ABC21F1315260C460029C719 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		ABC21F1415260C460029C719 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		ABC21F1515260C460029C719 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		ABC21F1A15260D430029C719 /* SceneController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneController.h; sourceTree = "<group>"; };
+		ABC21F1B15260D430029C719 /* SceneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneController.m; sourceTree = "<group>"; };
+		ABC21F23152611260029C719 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		ABC21F2A15262D8E0029C719 /* gameplay.sptex */ = {isa = PBXFileReference; lastKnownFileType = folder; path = gameplay.sptex; sourceTree = "<group>"; };
+		ABC7AF10152A08BB00A5E003 /* SPAtlasMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPAtlasMesh.h; sourceTree = "<group>"; };
+		ABC7AF11152A08BB00A5E003 /* SPAtlasMesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPAtlasMesh.m; sourceTree = "<group>"; };
+		ABC7AF13152A243600A5E003 /* SPAtlasSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPAtlasSprite.h; sourceTree = "<group>"; };
+		ABC7AF14152A243600A5E003 /* SPAtlasSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPAtlasSprite.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABC21E8B15260BC10029C719 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC21F24152611260029C719 /* QuartzCore.framework in Frameworks */,
+				ABC21F1615260C460029C719 /* AudioToolbox.framework in Frameworks */,
+				ABC21F1715260C460029C719 /* AVFoundation.framework in Frameworks */,
+				ABC21F1815260C460029C719 /* OpenAL.framework in Frameworks */,
+				ABC21F1915260C460029C719 /* OpenGLES.framework in Frameworks */,
+				ABC21E9315260BC10029C719 /* UIKit.framework in Frameworks */,
+				ABC21E9515260BC10029C719 /* Foundation.framework in Frameworks */,
+				ABC21E9715260BC10029C719 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABC21E8315260BC00029C719 = {
+			isa = PBXGroup;
+			children = (
+				ABC21E9815260BC10029C719 /* atlas */,
+				ABC21E9115260BC10029C719 /* Frameworks */,
+				ABC21E8F15260BC10029C719 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABC21E8F15260BC10029C719 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABC21E8E15260BC10029C719 /* atlas.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABC21E9115260BC10029C719 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABC21F23152611260029C719 /* QuartzCore.framework */,
+				ABC21F1215260C460029C719 /* AudioToolbox.framework */,
+				ABC21F1315260C460029C719 /* AVFoundation.framework */,
+				ABC21F1415260C460029C719 /* OpenAL.framework */,
+				ABC21F1515260C460029C719 /* OpenGLES.framework */,
+				ABC21E9215260BC10029C719 /* UIKit.framework */,
+				ABC21E9415260BC10029C719 /* Foundation.framework */,
+				ABC21E9615260BC10029C719 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABC21E9815260BC10029C719 /* atlas */ = {
+			isa = PBXGroup;
+			children = (
+				ABC21EAF15260BE10029C719 /* Specter 0.5 */,
+				ABC21EA115260BC10029C719 /* AppDelegate.h */,
+				ABC21EA215260BC10029C719 /* AppDelegate.m */,
+				ABC21EA415260BC10029C719 /* ViewController.h */,
+				ABC21EA515260BC10029C719 /* ViewController.m */,
+				ABC21EA715260BC10029C719 /* ViewController.xib */,
+				ABC21F1A15260D430029C719 /* SceneController.h */,
+				ABC21F1B15260D430029C719 /* SceneController.m */,
+				ABC21E9915260BC10029C719 /* Supporting Files */,
+			);
+			path = atlas;
+			sourceTree = "<group>";
+		};
+		ABC21E9915260BC10029C719 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABC21F2A15262D8E0029C719 /* gameplay.sptex */,
+				ABC21E9A15260BC10029C719 /* atlas-Info.plist */,
+				ABC21E9B15260BC10029C719 /* InfoPlist.strings */,
+				ABC21E9E15260BC10029C719 /* main.m */,
+				ABC21EA015260BC10029C719 /* atlas-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABC21EAF15260BE10029C719 /* Specter 0.5 */ = {
+			isa = PBXGroup;
+			children = (
+				ABC21ECD15260BE10029C719 /* Specter.h */,
+				ABC21EEC15260BE10029C719 /* SPTypes.h */,
+				ABC21EED15260BE10029C719 /* SPTypes.m */,
+				ABC21ECE15260BE10029C719 /* SPGeometry.h */,
+				ABC21ECF15260BE10029C719 /* SPGeometry.m */,
+				ABC21EDC15260BE10029C719 /* SPReadWrite.h */,
+				ABC21EDD15260BE10029C719 /* SPReadWrite.m */,
+				ABC21EB015260BE10029C719 /* iOS Support */,
+				ABC7AF0C152A060800A5E003 /* Audio */,
+				ABC21EC115260BE10029C719 /* SPAnimation.h */,
+				ABC21EC215260BE10029C719 /* SPAnimation.m */,
+				ABC21ED615260BE10029C719 /* SPNode.h */,
+				ABC21ED715260BE10029C719 /* SPNode.m */,
+				ABC21ED815260BE10029C719 /* SPNode2D.h */,
+				ABC21ED915260BE10029C719 /* SPNode2D.m */,
+				ABC21EC915260BE10029C719 /* SPCamera.h */,
+				ABC21ECA15260BE10029C719 /* SPCamera.m */,
+				ABC7AF0D152A062700A5E003 /* Atlas Scene */,
+				ABC7AF0E152A071200A5E003 /* Classic Scene */,
+				ABC7AF0F152A07B100A5E003 /* Texture */,
+			);
+			name = "Specter 0.5";
+			path = ../../Classes;
+			sourceTree = "<group>";
+		};
+		ABC21EB015260BE10029C719 /* iOS Support */ = {
+			isa = PBXGroup;
+			children = (
+				ABC21EB115260BE10029C719 /* EAGLView.h */,
+				ABC21EB215260BE10029C719 /* EAGLView.m */,
+				ABC21EB315260BE10029C719 /* EAGLViewController.h */,
+				ABC21EB415260BE10029C719 /* EAGLViewController.m */,
+				ABC21EBD15260BE10029C719 /* SPSceneController.h */,
+				ABC21EBE15260BE10029C719 /* SPSceneController.m */,
+			);
+			path = "iOS Support";
+			sourceTree = "<group>";
+		};
+		ABC7AF0C152A060800A5E003 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				ABC21EC715260BE10029C719 /* SPAudio.h */,
+				ABC21EC815260BE10029C719 /* SPAudio.m */,
+				ABC21EBF15260BE10029C719 /* SPAmbientTrack.h */,
+				ABC21EC015260BE10029C719 /* SPAmbientTrack.m */,
+				ABC21EE215260BE10029C719 /* SPSound.h */,
+				ABC21EE315260BE10029C719 /* SPSound.m */,
+			);
+			name = Audio;
+			sourceTree = "<group>";
+		};
+		ABC7AF0D152A062700A5E003 /* Atlas Scene */ = {
+			isa = PBXGroup;
+			children = (
+				ABC21EC515260BE10029C719 /* SPAtlasScene.h */,
+				ABC21EC615260BE10029C719 /* SPAtlasScene.m */,
+				ABC21EC315260BE10029C719 /* SPAtlasNode.h */,
+				ABC21EC415260BE10029C719 /* SPAtlasNode.m */,
+				ABC7AF10152A08BB00A5E003 /* SPAtlasMesh.h */,
+				ABC7AF11152A08BB00A5E003 /* SPAtlasMesh.m */,
+				ABC7AF13152A243600A5E003 /* SPAtlasSprite.h */,
+				ABC7AF14152A243600A5E003 /* SPAtlasSprite.m */,
+			);
+			name = "Atlas Scene";
+			sourceTree = "<group>";
+		};
+		ABC7AF0E152A071200A5E003 /* Classic Scene */ = {
+			isa = PBXGroup;
+			children = (
+				ABC21EDE15260BE10029C719 /* SPScene.h */,
+				ABC21EDF15260BE10029C719 /* SPScene.m */,
+				ABC21ECB15260BE10029C719 /* SPDrawableNode.h */,
+				ABC21ECC15260BE10029C719 /* SPDrawableNode.m */,
+				ABC21ED415260BE10029C719 /* SPLayer.h */,
+				ABC21ED515260BE10029C719 /* SPLayer.m */,
+				ABC21EE415260BE10029C719 /* SPSprite.h */,
+				ABC21EE515260BE10029C719 /* SPSprite.m */,
+				ABC21EE015260BE10029C719 /* SPShapes.h */,
+				ABC21EE115260BE10029C719 /* SPShapes.m */,
+				ABC21ED215260BE10029C719 /* SPLabel.h */,
+				ABC21ED315260BE10029C719 /* SPLabel.m */,
+				ABC21ED015260BE10029C719 /* SPGradient.h */,
+				ABC21ED115260BE10029C719 /* SPGradient.m */,
+				ABC21EDA15260BE10029C719 /* SPParticles.h */,
+				ABC21EDB15260BE10029C719 /* SPParticles.m */,
+			);
+			name = "Classic Scene";
+			sourceTree = "<group>";
+		};
+		ABC7AF0F152A07B100A5E003 /* Texture */ = {
+			isa = PBXGroup;
+			children = (
+				ABC21EE615260BE10029C719 /* SPTexture.h */,
+				ABC21EE715260BE10029C719 /* SPTexture.m */,
+				ABC21EE815260BE10029C719 /* SPTextureAtlas.h */,
+				ABC21EE915260BE10029C719 /* SPTextureAtlas.m */,
+				ABC21EEA15260BE10029C719 /* SPTexturePack.h */,
+				ABC21EEB15260BE10029C719 /* SPTexturePack.m */,
+			);
+			name = Texture;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABC21E8D15260BC10029C719 /* atlas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABC21EAC15260BC10029C719 /* Build configuration list for PBXNativeTarget "atlas" */;
+			buildPhases = (
+				ABC21E8A15260BC10029C719 /* Sources */,
+				ABC21E8B15260BC10029C719 /* Frameworks */,
+				ABC21E8C15260BC10029C719 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = atlas;
+			productName = atlas;
+			productReference = ABC21E8E15260BC10029C719 /* atlas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABC21E8515260BC00029C719 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Kieffer Bros., LLC";
+			};
+			buildConfigurationList = ABC21E8815260BC00029C719 /* Build configuration list for PBXProject "atlas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ABC21E8315260BC00029C719;
+			productRefGroup = ABC21E8F15260BC10029C719 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABC21E8D15260BC10029C719 /* atlas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABC21E8C15260BC10029C719 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC21E9D15260BC10029C719 /* InfoPlist.strings in Resources */,
+				ABC21EA915260BC10029C719 /* ViewController.xib in Resources */,
+				ABC21F2B15262D8E0029C719 /* gameplay.sptex in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABC21E8A15260BC10029C719 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC21E9F15260BC10029C719 /* main.m in Sources */,
+				ABC21EA315260BC10029C719 /* AppDelegate.m in Sources */,
+				ABC21EA615260BC10029C719 /* ViewController.m in Sources */,
+				ABC21EEE15260BE10029C719 /* EAGLView.m in Sources */,
+				ABC21EEF15260BE10029C719 /* EAGLViewController.m in Sources */,
+				ABC21EF315260BE10029C719 /* SPSceneController.m in Sources */,
+				ABC21EF415260BE10029C719 /* SPAmbientTrack.m in Sources */,
+				ABC21EF515260BE10029C719 /* SPAnimation.m in Sources */,
+				ABC21EF615260BE10029C719 /* SPAtlasNode.m in Sources */,
+				ABC21EF715260BE10029C719 /* SPAtlasScene.m in Sources */,
+				ABC21EF815260BE10029C719 /* SPAudio.m in Sources */,
+				ABC21EF915260BE10029C719 /* SPCamera.m in Sources */,
+				ABC21EFA15260BE10029C719 /* SPDrawableNode.m in Sources */,
+				ABC21EFB15260BE10029C719 /* SPGeometry.m in Sources */,
+				ABC21EFC15260BE10029C719 /* SPGradient.m in Sources */,
+				ABC21EFD15260BE10029C719 /* SPLabel.m in Sources */,
+				ABC21EFE15260BE10029C719 /* SPLayer.m in Sources */,
+				ABC21EFF15260BE10029C719 /* SPNode.m in Sources */,
+				ABC21F0015260BE10029C719 /* SPNode2D.m in Sources */,
+				ABC21F0115260BE10029C719 /* SPParticles.m in Sources */,
+				ABC21F0215260BE10029C719 /* SPReadWrite.m in Sources */,
+				ABC21F0315260BE10029C719 /* SPScene.m in Sources */,
+				ABC21F0415260BE10029C719 /* SPShapes.m in Sources */,
+				ABC21F0515260BE10029C719 /* SPSound.m in Sources */,
+				ABC21F0615260BE10029C719 /* SPSprite.m in Sources */,
+				ABC21F0715260BE10029C719 /* SPTexture.m in Sources */,
+				ABC21F0815260BE10029C719 /* SPTextureAtlas.m in Sources */,
+				ABC21F0915260BE10029C719 /* SPTexturePack.m in Sources */,
+				ABC21F0A15260BE10029C719 /* SPTypes.m in Sources */,
+				ABC21F1C15260D430029C719 /* SceneController.m in Sources */,
+				ABC7AF12152A08BB00A5E003 /* SPAtlasMesh.m in Sources */,
+				ABC7AF15152A243600A5E003 /* SPAtlasSprite.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ABC21E9B15260BC10029C719 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABC21E9C15260BC10029C719 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ABC21EA715260BC10029C719 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABC21EA815260BC10029C719 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABC21EAA15260BC10029C719 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ABC21EAB15260BC10029C719 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABC21EAD15260BC10029C719 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv6,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "atlas/atlas-Prefix.pch";
+				INFOPLIST_FILE = "atlas/atlas-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ABC21EAE15260BC10029C719 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv6,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "atlas/atlas-Prefix.pch";
+				INFOPLIST_FILE = "atlas/atlas-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABC21E8815260BC00029C719 /* Build configuration list for PBXProject "atlas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC21EAA15260BC10029C719 /* Debug */,
+				ABC21EAB15260BC10029C719 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABC21EAC15260BC10029C719 /* Build configuration list for PBXNativeTarget "atlas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC21EAD15260BC10029C719 /* Debug */,
+				ABC21EAE15260BC10029C719 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABC21E8515260BC00029C719 /* Project object */;
+}
